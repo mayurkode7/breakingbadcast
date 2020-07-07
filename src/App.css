@@ -48,7 +48,7 @@
   }
   
   .search {
-    height: 100px;
+    margin-bottom: 20px;
   }
   
   input[type='text'] {
@@ -118,6 +118,26 @@
   .card li {
     list-style: none;
     padding-bottom: 10px;
+  }
+
+  .spinner {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+
+  .info {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  footer {
+    border-top: 1px solid white;
+    margin-top: 40px;
   }
   
   @media (max-width: 800px) {
